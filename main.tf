@@ -1,5 +1,5 @@
 module "standard_alerts" {
-  source = "git::https://github.com/org/terraform-nr-standard-layer.git"
+  source = "git::https://github.com/aneesh-oss/terraform-standard.git"
 
   standard_alerts = var.standard_alerts
 }
